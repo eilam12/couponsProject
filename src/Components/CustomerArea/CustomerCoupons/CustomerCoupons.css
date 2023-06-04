@@ -1,0 +1,16 @@
+.CustomerCoupons {}
+
+.CustomerCoupons>h4 {
+  text-align: center;
+  margin: 5px;
+}
+
+.CustomerCoupons>input,
+select,
+button {
+  margin-left: 5px;
+}
+
+.CustomerCoupons #filters {
+  margin-left: 450px;
+}

@@ -1,0 +1,14 @@
+.CustomerPurchasedCouponDetails {
+}
+
+.CustomerPurchasedCouponDetails div{
+	text-align: center;
+}
+
+.CustomerPurchasedCouponDetails>a{
+	margin: 5px;
+}
+
+.CustomerPurchasedCouponDetails img{
+	width: 150px;
+}

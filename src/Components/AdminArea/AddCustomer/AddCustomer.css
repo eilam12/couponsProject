@@ -1,0 +1,9 @@
+.AddCustomer {}
+
+.AddCustomer input {
+    margin-top: 5px;
+}
+
+.AddCustomer>h3{
+   text-align: center;
+}

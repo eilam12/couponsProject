@@ -1,0 +1,19 @@
+.CustomerCard {
+	width: 150px;
+    height: 110px;
+    display: inline-block;
+    border: solid black 2px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    text-align: center;
+}
+
+.CustomerCard p{
+    font-size: 15px;
+}
+
+.CustomerCard button{
+    font-size: 10px;
+}

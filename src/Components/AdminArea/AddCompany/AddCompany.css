@@ -1,0 +1,9 @@
+.AddCompany {}
+
+.AddCompany input {
+    margin: 5px;
+}
+
+.AddCompany>h3 {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.AdminPage {}
+
+.AdminPage>h2 {
+    text-align: center;
+}
+
+.AdminPage a {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}

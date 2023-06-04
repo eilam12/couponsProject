@@ -1,0 +1,11 @@
+.CompanyPage {}
+
+.CompanyPage h2 {
+    text-align: center;
+}
+
+.CompanyPage a {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}

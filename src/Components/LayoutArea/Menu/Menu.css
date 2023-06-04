@@ -1,0 +1,10 @@
+.Menu {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.Menu>a {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}

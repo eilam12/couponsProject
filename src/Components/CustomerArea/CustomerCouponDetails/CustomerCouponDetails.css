@@ -1,0 +1,14 @@
+.CustomerCouponDetails {
+}
+
+.CustomerCouponDetails div{
+	text-align: center;
+}
+
+.CustomerCouponDetails>a{
+	margin: 5px;
+}
+
+.CustomerCouponDetails img{
+	width: 150px;
+}

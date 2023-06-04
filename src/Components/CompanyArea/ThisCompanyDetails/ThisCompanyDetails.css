@@ -1,0 +1,9 @@
+.ThisCompanyDetails {
+	text-align: center;
+}
+
+.ThisCompanyDetails button{
+    position: absolute;
+    left: 120px;
+    top: 60px
+}

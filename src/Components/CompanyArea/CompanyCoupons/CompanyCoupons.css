@@ -1,0 +1,16 @@
+.CompanyCoupons {}
+
+.CompanyCoupons>button,
+input,
+select {
+    margin-left: 5px;
+}
+
+.CompanyCoupons>h4 {
+    text-align: center;
+    margin: 5px;
+}
+
+.CompanyCoupons>#filters {
+    margin-left: 450px;
+}

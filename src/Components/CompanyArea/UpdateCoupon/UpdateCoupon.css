@@ -1,0 +1,14 @@
+.UpdateCoupon {
+}
+
+.UpdateCoupon>form {
+    text-align: center;
+}
+
+.UpdateCoupon>h3{
+    text-align: center;
+}
+
+.UpdateCoupon input, select{
+    margin-bottom: 5px;
+}

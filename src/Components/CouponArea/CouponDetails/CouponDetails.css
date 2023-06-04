@@ -1,0 +1,14 @@
+.CouponDetails {
+}
+
+.CouponDetails div{
+	text-align: center;
+}
+
+.CouponDetails button {
+margin-bottom: 10px;
+}
+
+.CouponDetails img{
+	width: 150px;
+}

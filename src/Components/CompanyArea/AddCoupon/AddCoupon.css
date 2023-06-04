@@ -1,0 +1,14 @@
+.AddCoupon {
+}
+
+.AddCoupon input{
+    margin-top: 5px;
+}
+
+.AddCoupon>form{
+    text-align: center;
+}
+
+.AddCoupon>h3{
+    text-align: center;
+}

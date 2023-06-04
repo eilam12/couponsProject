@@ -1,0 +1,31 @@
+body,
+html,
+#root {
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, #2dbde5 0%, #2989d8 26%, #1f38c6 59%, #7a4279 100%);
+}
+
+.box {
+  text-align: center;
+  border: grey solid 1px;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 400px;
+}
+
+Main {
+  /* background: linear-gradient(to bottom, #2dbde5 0%, #2989d8 26%, #1f38c6 59%, #7a4279 100%); */
+}
+
+Header {
+  /* background: lightgrey; */
+}
+
+footer {
+  /* background: blanchedalmond; */
+}
+
