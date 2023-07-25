@@ -22,27 +22,27 @@ function Menu(): JSX.Element {
 
             {token &&
                 authStore.getState().clientType.toString() == "ADMINISTRATOR" && <>
-                    <NavLink to="/administrator">Home</NavLink>
-                    <NavLink to="/administrator/companies">Companies</NavLink><br />
-                    <NavLink to="/administrator/customers">Customers</NavLink><br />
-                    <NavLink to="/administrator/addCompany">Add Company</NavLink><br />
-                    <NavLink to="/administrator/addCustomer">Add Customer</NavLink><br />
+                    <NavLink to="/administrator">Home&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/administrator/companies">Companies&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/administrator/customers">Customers&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/administrator/addCompany">Add Company&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/administrator/addCustomer">Add Customer</NavLink>
                 </>
             }
 
             {token &&
                 authStore.getState().clientType.toString() == "COMPANY" && <>
-                    <NavLink to="/company">Home</NavLink>
-                    <NavLink to="/company/coupons">My Coupons</NavLink><br />
-                    <NavLink to="/company/addCoupon">Add Coupon</NavLink><br />
-                    <NavLink to="/company/details">My details</NavLink><br />
+                    <NavLink to="/company">Home&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/company/coupons">My Coupons&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/company/addCoupon">Add Coupon&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/company/details">My details&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
                 </>}
 
             {token &&
                 authStore.getState().clientType.toString() == "CUSTOMER" && <>
-                    <NavLink to="/customer">Home</NavLink>
-                    <NavLink to="/customer/coupons">my coupons</NavLink>
-                    <NavLink to="/customer/details">my details</NavLink>
+                    <NavLink to="/customer">Home&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/customer/coupons">my coupons&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
+                    <NavLink to="/customer/details">my details&nbsp;&nbsp;&nbsp;&nbsp;</NavLink>
                 </>}
 
         </div >

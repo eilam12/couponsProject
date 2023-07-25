@@ -11,9 +11,9 @@ function Layout(): JSX.Element {
                 <Header />
             </header>
 
-            <aside>
+            <header>
                 <Menu />
-            </aside>
+            </header>
             
             <main>
                 <Routing />
